@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorGrey">#bdbdbd</color>
+    <color name="Primary">#FFFFFFFF</color>
+    <color name="PrimaryVariant">#B0FFFFFF</color>
+    <color name="ColorOnPrimary">#FF0000</color>
+    <color name="Secondary">#FF0000</color>
+    <color name="SecondaryVariant">#B2FF0000</color>
+    <color name="ColorOnSecondary">#FFFFFFFF</color>
+    <color name="BlueSky">#14E3DB</color>
+    <!-- Imported   -->
+    <color name="colorBlack">#000000</color>
+    <color name="colorPureGrey">#80FFFCFC</color>
+    <color name="colorConcrete">#95a5a6</color>
+    <color name="colorClouds">#ecf0f1</color>
+    <color name="colorBackEdit">#FFFFFF</color>
+    <color name="colorLightGrey">#f5f5f5</color>
+    <color name="colorTransparent">#CCCCCC</color>
+
+    <!-- Gradient    -->
+    <color name="GradientLeft">#D62121</color>
+    <color name="GradientCenter">#C72C2C</color>
+    <color name="GradientRight">#3a1111</color>
+</resources>

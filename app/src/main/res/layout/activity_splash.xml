@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/round_red"
+                android:layout_centerInParent="true">
+
+            </ImageView>
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieHeader"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                app:lottie_loop="true"
+                app:lottie_fileName="gamer_white.json"
+                app:lottie_autoPlay="true"
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Indonesia Gamer"
+                android:fontFamily="@font/gotham"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="@color/Secondary"
+                />
+            <TextView
+                android:layout_marginBottom="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:text="Untuk Gamer Indonesia"
+                android:textColor="@color/Secondary"
+                android:gravity="center"
+                android:textSize="@dimen/text_xxxtra_large"
+                android:fontFamily="@font/gotham"/>
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:text="Made by Destiny Consultant"
+                android:textColor="@color/Secondary"
+                android:gravity="center"
+                android:fontFamily="@font/gotham"
+                android:textSize="@dimen/text_xtra_large"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
